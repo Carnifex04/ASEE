@@ -23,7 +23,7 @@ We set out to test the Williams % R and the Williams Break-Out Volatility (BOV) 
 
 Volatility Break-out strategies are based on the concept that if the market makes a movement of a certain size in a short period of time, this movement will continue and positions can be opened to capitilize on this movement. Volatility, as [defined by Investopedia](https://www.investopedia.com/terms/v/volatility.asp), is the measurement of movement by either the Standard Deviation or variance between the same security. While the typical Volatility strategy and that definition don't match 1-to-1, the thought behind them are the same. A particular strategy created by trader Larry Williams includes a multiplier number in order to figure out how large the move needs to be before a trader takes action. By default, Larry suggests 25%. That number is then multiplied by the previous day's High and Low. Those respective numbers are then added and subtracted from the current Open price to create a "Range"<sup>1</sup>.
 
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/LW_range.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/LW_range.png?raw=true"/>
 
 Larry Williams then suggests opening a position based on the following factors:
 
@@ -38,11 +38,11 @@ Larry also has suggests closing a position if:
 
 2. After 24hours
 
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/LW_Long_TP.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/LW_Long_TP.png?raw=true"/>
 
 # 
 
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/LW_Short_TP.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/LW_Short_TP.png?raw=true"/>
 
 
 #
@@ -52,7 +52,7 @@ Larry also has suggests closing a position if:
 
 Williams %R, as [defined by Investopedia](https://www.investopedia.com/terms/w/williamsr.asp), also known as the Williams Percent Range, is a type of momentum indicator that moves between 0 and -100 and measures overbought and oversold levels. The Williams %R may be used to find entry and exit points in the market. The indicator is very similar to the Stochastic oscillator and is used in the same way. It was developed by Larry Williams and it compares a stock's closing price to the high-low range over a specific period, typically 14 days or periods." 
 
-<img src ="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/wr.png?raw=true">
+<img src ="https://github.com/Carnifex04/ASEE/blob/main/images/wr.png?raw=true">
 
 #
 
@@ -124,7 +124,7 @@ import holoviews as
 
 #
 
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/dataclean.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/dataclean.png?raw=true"/>
 
 #
 
@@ -140,7 +140,7 @@ Each St
 
 #
 
-<!-- Code explanation: Refer to [AlgoFunctions.py](https://github.com/Crawnicles/Algo-trading-project/blob/main/AlgoFunctions.py) -->
+<!-- Code explanation: Refer to [AlgoFunctions.py](https://github.com/Carnifex04/ASEE/blob/main/AlgoFunctions.py) -->
 
 #
 
@@ -150,20 +150,20 @@ Each St
 
 
 
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/s1.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/s1.png?raw=true"/>
 
 
 #
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/s2.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/s2.png?raw=true"/>
 
 
 #
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/s3.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/s3.png?raw=true"/>
 
 
 #
 
-<!-- Code explanation: Refer to [PlotFunctions.py](https://github.com/Crawnicles/Algo-trading-project/blob/main/PlotFunctions.py) -->
+<!-- Code explanation: Refer to [PlotFunctions.py](https://github.com/Carnifex04/ASEE/blob/main/PlotFunctions.py) -->
 
 #
 
@@ -176,20 +176,20 @@ Each St
 Our results suggest that using strategy 2, the Williams % R in the Bitcoin markets would return up to ~350% in late 2021 if beginning with a $100,000 investment five years ago.
 
 #
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/cs1.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/cs1.png?raw=true"/>
 
 
 #
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/cs2.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/cs2.png?raw=true"/>
 
 
 #
-<img src="https://github.com/Crawnicles/Algo-trading-project/blob/main/images/cs3.png?raw=true"/>
+<img src="https://github.com/Carnifex04/ASEE/blob/main/images/cs3.png?raw=true"/>
 
 
 #
 
-<!-- Code explanation: Refer to [BacktestFunctions.py](https://github.com/Crawnicles/Algo-trading-project/blob/main/BacktestFunctions.py) -->
+<!-- Code explanation: Refer to [BacktestFunctions.py](https://github.com/Carnifex04/ASEE/blob/main/BacktestFunctions.py) -->
 
 #
 
